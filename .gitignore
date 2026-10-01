@@ -1,0 +1,15 @@
+.venv/
+build/
+dist/
+graphify-out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.superpowers/
+
+# Personal / working-only files, never published
+config.json
+config.json.bak
+config.json.tmp
+*.docx
+AGENTS.md

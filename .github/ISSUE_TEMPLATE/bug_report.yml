@@ -1,0 +1,59 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ReadytoWork only runs on Windows. Please remove personal paths and user
+        names from anything you paste below.
+
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: ReadytoWork version
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: How did you install it?
+      options:
+        - ReadyToWork-Setup-1.0.0.exe (installer)
+        - ReadyToWork.exe (portable single file)
+        - Running from source (Python)
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Contents of %APPDATA%\ReadytoWork\config.json
+      description: |
+        Optional, but very helpful. Replace real paths with placeholders such as
+        C:\path\to\file.exe - the structure matters, the actual paths do not.
+      render: text
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or screenshot
+      render: text

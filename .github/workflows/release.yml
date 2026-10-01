@@ -1,0 +1,84 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build executable and installer
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest tests -v
+
+      - name: Build single-file executable
+        run: python -m PyInstaller --clean --noconfirm ReadyToWork.spec
+
+      - name: Install Inno Setup
+        run: choco install innosetup --no-progress -y
+
+      - name: Build installer
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { throw "ISCC.exe not found after choco install" }
+          & $iscc installer.iss
+
+      - name: Verify artifacts
+        run: |
+          Get-ChildItem dist
+          if (-not (Test-Path "dist\ReadyToWork.exe")) { throw "Executable missing" }
+          $setup = Get-ChildItem "dist\ReadyToWork-Setup-*.exe"
+          if (-not $setup) { throw "Installer missing" }
+
+      - name: Upload installer and executable
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/ReadyToWork-Setup-*.exe
+            dist/ReadyToWork.exe
+          draft: true
+          generate_release_notes: true
+          body: |
+            ## ReadytoWork 1.0.0
+
+            A Windows tray launcher for your programs, folders, documents and web
+            addresses.
+
+            **Download the installer:** `ReadyToWork-Setup-1.0.0.exe`
+
+            The installer is not code-signed, so Windows SmartScreen may warn on
+            first run. Choose *More info → Run anyway*.
+
+            ### Highlights
+
+            - Tray menu with one-click *Open all*
+            - Five interface languages: English, Türkçe, 中文, Deutsch, Italiano
+            - Settings stored in `%APPDATA%\ReadytoWork\config.json`, written atomically
+            - Programs, folders, documents and web addresses
+            - Single instance: launching twice does nothing
+            - Native uninstaller removes the application and its settings
+
+            ### Verify the download (optional)
+
+            ```
+            Get-FileHash .\ReadyToWork-Setup-1.0.0.exe -Algorithm SHA256
+            ```
+
+            Full changelog: [CHANGELOG.md](https://github.com/ilkeryigit/ReadytoWork/blob/main/CHANGELOG.md)
