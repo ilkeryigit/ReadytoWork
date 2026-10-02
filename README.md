@@ -103,6 +103,23 @@ and then renamed over `config.json`, so the file on disk is always complete.
 A corrupt file is moved to `config.json.bak` and the app starts with an empty
 list instead of overwriting anything.
 
+## Contributing
+
+Contributions are welcome — bug reports, translations, and small features all
+help. This is a Windows-only tool with no runtime dependencies beyond `pystray`
+and `Pillow`, and that is a line we try to hold.
+
+- **Bugs and ideas:** open an issue. Before you do, check the open ones.
+- **Small fixes and translations:** look for issues labelled
+  [`good first issue`](https://github.com/ilkeryigit/ReadytoWork/labels/good%20first%20issue) —
+  these are scoped so a first contribution stays small.
+- **Bigger changes:** open an issue first so we can agree on the approach
+  before you write the code.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the setup steps, the
+ground rules, and how to add a language. Everyone participating is expected to
+follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Privacy
 
 No analytics, no network calls, no user tracking. The only file written outside

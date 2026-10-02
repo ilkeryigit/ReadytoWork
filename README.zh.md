@@ -70,6 +70,20 @@ python -m venv .venv
 所有界面文案都存放在 `lang/<代码>.json`。新增语言的步骤见
 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+## 参与贡献
+
+欢迎贡献——问题反馈、翻译、小功能都能帮上忙。这是一个仅支持 Windows 的工具，
+除 `pystray` 和 `Pillow` 外没有运行时依赖，我们希望保持这一点。
+
+- **缺陷与想法：** 提一个 issue。提交前请先看看是否已有同类 issue。
+- **小修复与翻译：** 优先查看带有
+  [`good first issue`](https://github.com/ilkeryigit/ReadytoWork/labels/good%20first%20issue)
+  标签的 issue——它们的范围经过刻意控制，适合作为第一次贡献。
+- **较大的改动：** 请先提 issue 讨论方案，再动手写代码。
+
+环境搭建、基本规则以及新增语言的步骤见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+所有参与者都需遵守[行为准则](CODE_OF_CONDUCT.md)。
+
 ## 隐私
 
 没有统计分析、没有网络请求、没有用户追踪。安装目录之外唯一被写入的文件是

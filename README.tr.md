@@ -77,6 +77,24 @@ python -m venv .venv
 Kullanıcıya görünen her metin `lang/<kod>.json` içindedir. Yeni bir dil eklemek
 için `CONTRIBUTING.md` dosyasındaki adımları izleyin.
 
+## Katkıda bulunma
+
+Katkılar memnuniyetle karşılanır — hata bildirimi, çeviri ve küçük özellikler
+hepsi yardımcı olur. Bu yalnızca Windows'ta çalışan, `pystray` ve `Pillow`
+dışında çalışma zamanı bağımlılığı olmayan bir araç; bu çizgiyi korumaya
+çalışıyoruz.
+
+- **Hatalar ve fikirler:** issue açın. Açmadan önce açık olanları kontrol edin.
+- **Küçük düzeltmeler ve çeviriler:**
+  [`good first issue`](https://github.com/ilkeryigit/ReadytoWork/labels/good%20first%20issue)
+  etiketli işlere bakın — bunlar ilk katkının küçük kalması için dar kapsamlıdır.
+- **Daha büyük değişiklikler:** kodu yazmadan önce issue açıp yaklaşımı
+  konuşalım.
+
+Kurulum adımları, temel kurallar ve dil ekleme rehberi için
+[CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun. Katılımın herkes için
+[Davranış Kuralları](CODE_OF_CONDUCT.md)'na uyması beklenir.
+
 ## Gizlilik
 
 Analitik yok, ağ çağrısı yok, kullanıcı takibi yok. Kurulum dizini dışında

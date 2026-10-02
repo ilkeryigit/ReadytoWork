@@ -80,6 +80,23 @@ python -m venv .venv
 Ogni testo visibile si trova in `lang/<codice>.json`. I passaggi per aggiungere
 una lingua sono in [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Contribuire
+
+I contributi sono benvenuti – segnalazioni di bug, traduzioni e piccole funzioni
+aiutano tutti. È uno strumento solo per Windows senza dipendenze a runtime oltre
+a `pystray` e `Pillow`, e intendiamo mantenerlo così.
+
+- **Bug e idee:** apri una issue. Prima controlla quelle già aperte.
+- **Correzioni e traduzioni piccole:** guarda le issue con l'etichetta
+  [`good first issue`](https://github.com/ilkeryigit/ReadytoWork/labels/good%20first%20issue)
+  – sono volutamente di ampiezza contenuta.
+- **Modifiche più grandi:** apri prima una issue, così concordiamo l'approccio
+  prima che tu scriva il codice.
+
+Leggi [CONTRIBUTING.md](CONTRIBUTING.md) per i passaggi di setup, le regole di
+base e la guida all'aggiunta di una lingua. Chi partecipa è tenuto a seguire il
+[Codice di condotta](CODE_OF_CONDUCT.md).
+
 ## Privacy
 
 Nessuna analisi, nessuna chiamata di rete, nessun tracciamento. L'unico file
