@@ -59,13 +59,6 @@ def _edit_dialog(parent, existing, items, refresh, mark_dirty):
     type_var.trace_add("write", _browse_state)
     _browse_state()
 
-    buttons = tk.Frame(dialog)
-    buttons.pack(fill="x", padx=12, pady=(0, 10))
-    tk.Button(buttons, text=i18n.t("dialog.cancel", lang),
-              command=dialog.destroy).pack(side="right", padx=3)
-    tk.Button(buttons, text=i18n.t("dialog.ok", lang),
-              command=_confirm).pack(side="right", padx=3)
-
     def _confirm():
         name = name_var.get().strip()
         path = path_var.get().strip()
@@ -79,6 +72,13 @@ def _edit_dialog(parent, existing, items, refresh, mark_dirty):
         mark_dirty()
         refresh()
         dialog.destroy()
+
+    buttons = tk.Frame(dialog)
+    buttons.pack(fill="x", padx=12, pady=(0, 10))
+    tk.Button(buttons, text=i18n.t("dialog.cancel", lang),
+              command=dialog.destroy).pack(side="right", padx=3)
+    tk.Button(buttons, text=i18n.t("dialog.ok", lang),
+              command=_confirm).pack(side="right", padx=3)
 
 
 def _browse(dialog, type_var, path_var):

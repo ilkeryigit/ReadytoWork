@@ -7,7 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Nothing yet.
+### Fixed
+
+- **No item could ever be added.** The add/edit dialog raised an
+  `UnboundLocalError` while it was still being built, so its *Save* button was
+  never created and the settings thread died without a visible error — the
+  frozen build has no console, so it looked like a missing button. The dialog's
+  confirm callback is now defined before the button that calls it, and
+  `tests/test_gui.py` builds the real dialog and clicks *Save*.
 
 ## [1.0.0] - 2026-10-01
 

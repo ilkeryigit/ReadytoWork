@@ -28,6 +28,10 @@ Everything runs on Windows. Open a pull request and describe what changed and wh
 
 Tests must run on Windows and must never perform real system actions:
 `subprocess.Popen`, `os.startfile` and `webbrowser.open` are always mocked.
+One test in `tests/test_gui.py` builds a real tkinter dialog and clicks its Save
+button, because dialog wiring cannot be proven with mocks. It skips itself if
+`tcl/tk8.6` cannot be read on your machine — that is a local antivirus or
+filesystem quirk, not a failure.
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest tests -v
