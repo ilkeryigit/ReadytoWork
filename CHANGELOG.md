@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Nothing yet.
+
+## [1.0.1] - 2026-10-02
+
 ### Fixed
 
 - **No item could ever be added.** The add/edit dialog raised an
@@ -61,5 +65,6 @@ First public release. Previously distributed as "Doktora Başlatıcı".
 - Turkish-only interface.
 - Default items containing personal paths.
 
-[Unreleased]: https://github.com/ilkeryigit/ReadytoWork/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/ilkeryigit/ReadytoWork/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/ilkeryigit/ReadytoWork/releases/tag/v1.0.1
 [1.0.0]: https://github.com/ilkeryigit/ReadytoWork/releases/tag/v1.0.0

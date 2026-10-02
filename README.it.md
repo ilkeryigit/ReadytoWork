@@ -47,7 +47,7 @@ file JSON, sulla tua macchina.
 ## Installazione
 
 Scarica l'installer dalla [pagina delle release](https://github.com/ilkeryigit/ReadytoWork/releases),
-esegui `ReadytoWork-Setup-1.0.0.exe` e scegli le opzioni.
+esegui `ReadytoWork-Setup-1.0.1.exe` e scegli le opzioni.
 
 > L'installer non è firmato, quindi Windows SmartScreen potrebbe avvisarti alla
 > prima esecuzione. Scegli *Ulteriori informazioni → Esegui comunque*.
@@ -80,7 +80,7 @@ python -m venv .venv
 # eseguibile in un unico file -> dist\ReadytoWork.exe
 .\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadytoWork.spec
 
-# installer -> dist\ReadytoWork-Setup-1.0.0.exe   (richiede Inno Setup 6)
+# installer -> dist\ReadytoWork-Setup-1.0.1.exe   (richiede Inno Setup 6)
 & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" installer.iss
 ```
 

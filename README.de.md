@@ -47,7 +47,7 @@ Ihrem eigenen Rechner.
 ## Installation
 
 Laden Sie den Installer von der [Releases-Seite](https://github.com/ilkeryigit/ReadytoWork/releases),
-führen Sie `ReadytoWork-Setup-1.0.0.exe` aus und wählen Sie Ihre Optionen.
+führen Sie `ReadytoWork-Setup-1.0.1.exe` aus und wählen Sie Ihre Optionen.
 
 > Der Installer ist nicht signiert, daher kann Windows SmartScreen beim ersten
 > Start warnen. Wählen Sie *Weitere Informationen → Trotzdem ausführen*.
@@ -80,7 +80,7 @@ python -m venv .venv
 # einzelne ausführbare Datei -> dist\ReadytoWork.exe
 .\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadytoWork.spec
 
-# Installer -> dist\ReadytoWork-Setup-1.0.0.exe   (benötigt Inno Setup 6)
+# Installer -> dist\ReadytoWork-Setup-1.0.1.exe   (benötigt Inno Setup 6)
 & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" installer.iss
 ```
 

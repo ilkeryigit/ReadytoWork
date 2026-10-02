@@ -7,7 +7,7 @@ LANGS = ("tr", "en", "zh", "de", "it")
 
 def test_versiyon_bir_nokta_sifir_sifir():
     from version import __version__
-    assert __version__ == "1.0.0"
+    assert __version__ == "1.0.1"
 
 
 def test_bes_dil_dosyasi_yukleniyor():

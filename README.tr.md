@@ -44,7 +44,7 @@ trafiği yok. Listeniz tek bir JSON dosyasında, kendi makinenizde durur.
 ## Kurulum
 
 [Releases sayfasından](https://github.com/ilkeryigit/ReadytoWork/releases)
-kurulum dosyasını indirin, `ReadytoWork-Setup-1.0.0.exe` dosyasını çalıştırın
+kurulum dosyasını indirin, `ReadytoWork-Setup-1.0.1.exe` dosyasını çalıştırın
 ve seçeneklerinizi işaretleyin.
 
 > Kurulum dosyası kod imzalı değildir; ilk çalıştırmada Windows SmartScreen
@@ -76,7 +76,7 @@ python -m venv .venv
 # tek dosyalık çalıştırılabilir -> dist\ReadytoWork.exe
 .\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadytoWork.spec
 
-# kurulum dosyası -> dist\ReadytoWork-Setup-1.0.0.exe   (Inno Setup 6 gerekir)
+# kurulum dosyası -> dist\ReadytoWork-Setup-1.0.1.exe   (Inno Setup 6 gerekir)
 & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" installer.iss
 ```
 

@@ -61,12 +61,12 @@ jobs:
           draft: true
           generate_release_notes: true
           body: |
-            ## ReadytoWork 1.0.0
+            ## ReadytoWork 1.0.1
 
             A Windows tray launcher for your programs, folders, documents and web
             addresses.
 
-            **Download the installer:** `ReadytoWork-Setup-1.0.0.exe`
+            **Download the installer:** `ReadytoWork-Setup-1.0.1.exe`
 
             The installer is not code-signed, so Windows SmartScreen may warn on
             first run. Choose *More info → Run anyway*.
@@ -83,7 +83,7 @@ jobs:
             ### Verify the download (optional)
 
             ```
-            Get-FileHash .\ReadytoWork-Setup-1.0.0.exe -Algorithm SHA256
+            Get-FileHash .\ReadytoWork-Setup-1.0.1.exe -Algorithm SHA256
             ```
 
             Full changelog: [CHANGELOG.md](https://github.com/ilkeryigit/ReadytoWork/blob/main/CHANGELOG.md)

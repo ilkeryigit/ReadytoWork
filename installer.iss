@@ -4,7 +4,7 @@
 
 #define AppName "ReadytoWork"
 #define AppNameLower "readytowork"
-#define AppVersion "1.0.0"
+#define AppVersion "1.0.1"
 #define AppPublisher "ilkeryigit"
 #define AppURL "https://github.com/ilkeryigit/ReadytoWork"
 #define AppExeName "ReadytoWork.exe"

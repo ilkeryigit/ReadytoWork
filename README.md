@@ -8,7 +8,7 @@
 [![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D4.svg)](https://en.wikipedia.org/wiki/Microsoft_Windows)
 [![Python: 3](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![Build: PyInstaller](https://img.shields.io/badge/build-PyInstaller-6.x-purple.svg)](https://pyinstaller.org/)
-[![Release: 1.0.0](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)](https://github.com/ilkeryigit/ReadytoWork/releases)
+[![Release: 1.0.1](https://img.shields.io/badge/release-1.0.1-brightgreen.svg)](https://github.com/ilkeryigit/ReadytoWork/releases)
 
 [Interface languages](lang/) · [English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
@@ -48,7 +48,7 @@ network traffic. Your list lives in one JSON file on your own machine.
 ## Install
 
 Download the installer from the [releases page](https://github.com/ilkeryigit/ReadytoWork/releases),
-run `ReadytoWork-Setup-1.0.0.exe`, and pick your options.
+run `ReadytoWork-Setup-1.0.1.exe`, and pick your options.
 
 > The installer is not code-signed, so Windows SmartScreen may warn you on first
 > run. Choose *More info → Run anyway*.
@@ -79,7 +79,7 @@ python -m venv .venv
 # single-file executable -> dist\ReadytoWork.exe
 .\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadytoWork.spec
 
-# installer -> dist\ReadytoWork-Setup-1.0.0.exe   (needs Inno Setup 6)
+# installer -> dist\ReadytoWork-Setup-1.0.1.exe   (needs Inno Setup 6)
 & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" installer.iss
 ```
 
