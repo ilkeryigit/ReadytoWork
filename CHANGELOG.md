@@ -20,7 +20,7 @@ Nothing yet.
   confirm callback is now defined before the button that calls it, and
   `tests/test_gui.py` builds the real dialog and clicks *Save*.
 
-## [1.0.0] - 2026-10-01
+## 1.0.0 - 2026-10-01
 
 First public release. Previously distributed as "Doktora Başlatıcı".
 
@@ -67,4 +67,3 @@ First public release. Previously distributed as "Doktora Başlatıcı".
 
 [Unreleased]: https://github.com/ilkeryigit/ReadytoWork/compare/v1.0.1...HEAD
 [1.0.1]: https://github.com/ilkeryigit/ReadytoWork/releases/tag/v1.0.1
-[1.0.0]: https://github.com/ilkeryigit/ReadytoWork/releases/tag/v1.0.0
