@@ -10,7 +10,7 @@
 [![Build: PyInstaller](https://img.shields.io/badge/build-PyInstaller-6.x-purple.svg)](https://pyinstaller.org/)
 [![Release: 1.0.0](https://img.shields.io/badge/release-1.0.0-brightgreen.svg)](https://github.com/ilkeryigit/ReadytoWork/releases)
 
-[Interface languages](lang/) · English · Türkçe · 中文 · Deutsch · Italiano
+[Interface languages](lang/) · [English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
 </div>
 
