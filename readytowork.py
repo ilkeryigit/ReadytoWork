@@ -4,7 +4,7 @@ import sys
 import app
 import config
 
-MUTEX_NAME = "ReadyToWork.SingleInstance"
+MUTEX_NAME = "ReadytoWork.SingleInstance"
 
 _mutex_handle = None
 

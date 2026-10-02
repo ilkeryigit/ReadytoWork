@@ -1,4 +1,4 @@
-; ReadyToWork - Inno Setup script
+; ReadytoWork - Inno Setup script
 ; English wizard. Build with: ISCC.exe installer.iss
 ; Requires Inno Setup 6.x. On CI it is installed by the release workflow.
 
@@ -7,7 +7,7 @@
 #define AppVersion "1.0.0"
 #define AppPublisher "ilkeryigit"
 #define AppURL "https://github.com/ilkeryigit/ReadytoWork"
-#define AppExeName "ReadyToWork.exe"
+#define AppExeName "ReadytoWork.exe"
 
 [Setup]
 AppId={{7B4C9A21-6D3E-4F18-9C55-2A8E1D6B0F34}
@@ -18,7 +18,7 @@ AppPublisher={#AppPublisher}
 AppPublisherURL={#AppURL}
 AppSupportURL={#AppURL}/issues
 AppUpdatesURL={#AppURL}/releases
-DefaultDirName={autopf}\{#AppName}
+DefaultDirName={localappdata}\Programs\{#AppName}
 DefaultGroupName={#AppName}
 DisableProgramGroupPage=yes
 LicenseFile=LICENSE
@@ -27,12 +27,13 @@ OutputBaseFilename={#AppName}-Setup-{#AppVersion}
 Compression=lzma2/max
 SolidCompression=yes
 WizardStyle=modern
-; Per-user install by default so no admin rights are required
+; Per-user by default: the app writes HKCU and %APPDATA%, so no admin rights
+; are needed. The dialog still offers a machine-wide install for power users.
+PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 ArchitecturesInstallIn64BitMode=x64compatible
 UninstallDisplayIcon={app}\{#AppExeName}
 SetupIconFile=app.ico
-WizardSmallImageFile=app.ico
 CloseApplications=yes
 RestartApplications=no
 
@@ -40,8 +41,9 @@ RestartApplications=no
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
+; Both tasks are checked by default, as specified for this project.
 Name: "desktopicon"; Description: "Create a &desktop shortcut"; GroupDescription: "Additional shortcuts:"
-Name: "autostart"; Description: "Start {#AppName} when Windows starts"; GroupDescription: "Additional shortcuts:"; Flags: unchecked
+Name: "autostart"; Description: "Start {#AppName} when Windows starts"; GroupDescription: "Additional shortcuts:"
 
 [Files]
 Source: "dist\{#AppExeName}"; DestDir: "{app}"; Flags: ignoreversion

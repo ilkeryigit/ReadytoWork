@@ -54,7 +54,7 @@ sağlam çalışıyor; kırılma noktası dosya konumu ve yazım garantisi.
 | `lang/*.json` | `tr, en, zh, de, it` çeviri dosyaları |
 
 Modül adları zaten İngilizce. Tek örnek mutex adı dil-bağımsız ve markaya
-özgüdür: `ReadyToWork.SingleInstance` — eski Türkçe ad kullanılmaz, böylece
+özgüdür: `ReadytoWork.SingleInstance` — eski Türkçe ad kullanılmaz, böylece
 kurulu sürüm ile taşınabilir eski kopya birbirini mutex'e kilitlemez.
 
 ### 2.2 Veri akışı
@@ -218,7 +218,7 @@ bozuk karakter taraması testte yapılır.
 ### 6.1 PyInstaller
 
 Giriş noktası `v1.py` → `readytowork.py`. Spec `v1.spec` →
-`ReadyToWork.spec`, çıktı `dist/ReadyToWork.exe`.
+`ReadytoWork.spec`, çıktı `dist/ReadytoWork.exe`.
 `version.py`'den sürüm okunur. `console=False`, ikon gömülü.
 
 ### 6.2 Inno Setup (`installer.iss`)
@@ -226,15 +226,15 @@ Giriş noktası `v1.py` → `readytowork.py`. Spec `v1.spec` →
 **Tamamı İngilizce** (kullanıcı talebi):
 
 ```
-ReadyToWork Setup
+ReadytoWork Setup
   Welcome / License / Select Install Location / Ready to Install /
   Installing / Finish
-Install dir : C:\Program Files\ReadyToWork   (değiştirilebilir)
-Start Menu  : ReadyToWork klasörü + çalıştır/kaldır kısayolları
+Install dir : C:\Program Files\ReadytoWork   (değiştirilebilir)
+Start Menu  : ReadytoWork klasörü + çalıştır/kaldır kısayolları
 Desktop icon: onay kutusu (varsayılan işaretli)
 Run at startup: onay kutusu (varsayılan işaretli) → registry Run kaydı
 Uninstaller : hazırlanır, .bak dosyaları dahil
-Uninstall   : %APPDATA%\ReadyToWork\ SİLİNİR
+Uninstall   : %APPDATA%\ReadytoWork\ SİLİNİR
 ```
 
 `Run` bölümü yok — kullanıcı kendi başlatır.
@@ -268,7 +268,7 @@ GitHub kimliği `ilkeryigit`; git commit yazarı olarak noreply adresi kullanıl
 | CHANGELOG.md | Keep a Changelog + SemVer |
 
 **`release.yml`:** tag push (`v1.0.0`) → Windows runner'da PyInstaller build →
-Inno Setup ile `ReadyToWork-Setup-1.0.0.exe` → GitHub Release'e
+Inno Setup ile `ReadytoWork-Setup-1.0.0.exe` → GitHub Release'e
 **otomatik İngilizce release notları** ile yüklenir.
 
 ---

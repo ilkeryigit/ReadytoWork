@@ -40,7 +40,7 @@ network traffic. Your list lives in one JSON file on your own machine.
 ## Install
 
 Download the installer from the [releases page](https://github.com/ilkeryigit/ReadytoWork/releases),
-run `ReadyToWork-Setup-1.0.0.exe`, and pick your options.
+run `ReadytoWork-Setup-1.0.0.exe`, and pick your options.
 
 > The installer is not code-signed, so Windows SmartScreen may warn you on first
 > run. Choose *More info → Run anyway*.
@@ -68,10 +68,10 @@ python -m venv .venv
 # tests
 .\.venv\Scripts\python.exe -m pytest tests -v
 
-# single-file executable -> dist\ReadyToWork.exe
-.\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadyToWork.spec
+# single-file executable -> dist\ReadytoWork.exe
+.\.venv\Scripts\python.exe -m PyInstaller --clean --noconfirm ReadytoWork.spec
 
-# installer -> dist\ReadyToWork-Setup-1.0.0.exe   (needs Inno Setup 6)
+# installer -> dist\ReadytoWork-Setup-1.0.0.exe   (needs Inno Setup 6)
 & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" installer.iss
 ```
 

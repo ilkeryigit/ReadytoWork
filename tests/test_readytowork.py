@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).parent.parent
 
 
 def test_mutex_adi_markaya_ozgu():
-    assert readytowork.MUTEX_NAME == "ReadyToWork.SingleInstance"
+    assert readytowork.MUTEX_NAME == "ReadytoWork.SingleInstance"
 
 
 def test_tek_ornek_kontrol_bool_donduruyor():

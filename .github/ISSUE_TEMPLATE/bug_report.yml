@@ -29,8 +29,8 @@ body:
     attributes:
       label: How did you install it?
       options:
-        - ReadyToWork-Setup-1.0.0.exe (installer)
-        - ReadyToWork.exe (portable single file)
+        - ReadytoWork-Setup-1.0.0.exe (installer)
+        - ReadytoWork.exe (portable single file)
         - Running from source (Python)
     validations:
       required: true
