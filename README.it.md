@@ -7,14 +7,23 @@ e indirizzi a portata di un clic.**
 
 ---
 
+## Per chi?
+
+Dottorandi, studenti di magistrale, studenti universitari e dipendenti d'ufficio
+– in breve, chiunque inizi la giornata di lavoro aprendo sempre gli stessi
+strumenti.
+
 ## Perché?
 
-Ogni mattina apri le stesse cose: il documento in cui stai scrivendo, il gestore
-di riferimenti, la cartella delle fonti, un cruscotto. ReadytoWork le tiene in un
-unico menu di sistema, così le apri tutte con un clic invece di cercarle nel menu
-Avvio e sul desktop.
+Ogni mattina apri decine di file, programmi e indirizzi solo per cominciare? I
+minuti persi a cercare nel menu Avvio e sul desktop si sommano, tolgono
+concentrazione e costano tempo vero?
 
-È uno strumento piccolo e onesto: nessun account, nessun cloud, nessuna
+Se la risposta è sì, questo strumento è fatto per te. Un clic apre tutto in una
+volta: sei pronto a lavorare invece di raccogliere i tuoi strumenti, e non
+perdi più tempo all'inizio di ogni giornata.
+
+Uno strumento piccolo e onesto: nessun account, nessun cloud, nessuna
 telemetria, nessun traffico di rete in background. La tua lista sta in un solo
 file JSON, sulla tua macchina.
 

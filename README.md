@@ -16,12 +16,20 @@
 
 ---
 
+## Who is it for?
+
+PhD candidates, master's students, university students, and office workers —
+in short, anyone whose working day begins by opening the same set of tools.
+
 ## Why
 
-Every morning you open the same handful of things: a document you are writing,
-a reference manager, a folder of sources, a dashboard. ReadytoWork keeps them
-in one tray menu, so you open all of them with a single click instead of hunting
-through the Start menu and your desktop.
+Do you open dozens of files, programs and URLs every single morning just to get
+started? Do the minutes lost to hunting through the Start menu and your desktop
+add up, chip away at your focus, and cost you real time?
+
+If the answer is yes, this tool is for you. One click opens everything at once,
+so you are ready to work instead of gathering your tools — and you stop losing
+time to the start of every day.
 
 It is a small, honest tool: no account, no cloud, no telemetry, no background
 network traffic. Your list lives in one JSON file on your own machine.

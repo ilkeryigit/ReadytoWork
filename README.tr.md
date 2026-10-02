@@ -7,12 +7,20 @@ adresleriniz tek tıkla erişime açık olsun.**
 
 ---
 
+## Kimler için?
+
+Doktora yapanlar, yüksek lisans yapanlar, üniversite öğrencileri ve ofis
+çalışanları — kısacası, iş gününe her gün aynı araçları açarak başlayan herkes.
+
 ## Neden?
 
-Her sabah aynı birkaç şeyi açıyorsunuz: yazdığınız bir belge, bir referans
-yöneticisi, kaynak dosyalarınızın bulunduğu klasör, bir panel. ReadytoWork
-bunları tek bir tepsi menüsünde tutar; böylece Başlat menüsünde ve masaüstünde
-arama yapmak yerine hepsini tek tıkla açarsınız.
+Her sabah çalışmaya başlamak için onlarca dosya, program ve url açmak zorunda mısınız?
+Başlat menüsünde ve masaüstünde arayarak kaybettiğiniz dakikalar birikiyor,
+odaklanmanızı bozuyor ve gerçek zamanınızdan gidiyor mu?
+
+Cevap evetse bu araç tam size göre. Tek tıkla her şeyi birden açın; araçlarınızı
+toplamakla uğraşmak yerine çalışmaya hazır olun ve günün başına kaybettiğiniz
+zamanı geri kazanın.
 
 Küçük ve dürüst bir araç: hesap yok, bulut yok, telemetri yok, arka planda ağ
 trafiği yok. Listeniz tek bir JSON dosyasında, kendi makinenizde durur.

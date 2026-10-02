@@ -7,12 +7,21 @@ mit einem Klick erreichbar.**
 
 ---
 
+## Für wen?
+
+Promovierende, Masterstudierende, Studierende und Büroangestellte – kurz,
+alle, deren Arbeitstag damit beginnt, immer dieselben Werkzeuge zu öffnen.
+
 ## Wozu?
 
-Jeden Morgen öffnen Sie dieselben paar Dinge: ein Dokument, an dem Sie
-schreiben, einen Literaturverwalter, einen Ordner mit Quellen, ein Dashboard.
-ReadytoWork hält sie in einem Tray-Menü – ein Klick statt der Suche im
-Startmenü und auf dem Desktop.
+Öffnen Sie jeden Morgen Dutzende Dateien, Programme und URLs, nur um
+überhaupt anzufangen? Gehen die Minuten verloren, die Sie mit der Suche im
+Startmenü und auf dem Desktop verbringen, auf Ihre Konzentration und Ihre
+echte Zeit?
+
+Wenn ja, ist dieses Werkzeug genau für Sie gedacht. Ein Klick öffnet alles
+auf einmal – Sie sind arbeitsbereit, statt Ihre Werkzeuge erst zusammenzusuchen,
+und Sie verlieren keine Zeit mehr an den Beginn jedes Tages.
 
 Ein kleines, ehrliches Werkzeug: kein Konto, keine Cloud, keine Telemetrie, kein
 Netzwerkverkehr im Hintergrund. Ihre Liste liegt in einer einzigen JSON-Datei auf
