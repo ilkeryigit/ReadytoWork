@@ -47,7 +47,7 @@ def test_ekle_penceresi_kaydedebiliyor(tk_root):
 
 
 def test_bes_dil_kodu():
-    assert len(gui.LANG_CODES) == 5
+    assert len(gui.LANG_CODES) == 6
     assert "tr" in gui.LANG_CODES and "en" in gui.LANG_CODES
 
 
