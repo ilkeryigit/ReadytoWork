@@ -2,7 +2,7 @@ import pytest
 
 import i18n
 
-LANGS = ("tr", "en", "zh", "de", "it")
+LANGS = ("tr", "en", "zh", "de", "it","fr")
 
 
 def test_versiyon_bir_nokta_sifir_sifir():

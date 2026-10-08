@@ -3,7 +3,7 @@ from pathlib import Path
 
 LANG_DIR = Path(__file__).parent / "lang"
 DEFAULT_LANG = "tr"
-LANG_NAMES = {"tr": "Türkçe", "en": "English", "zh": "中文", "de": "Deutsch", "it": "Italiano"}
+LANG_NAMES = {"tr": "Türkçe", "en": "English", "zh": "中文", "de": "Deutsch", "it": "Italiano", "fr": "Français"}
 
 _catalog: dict = {}
 _active = DEFAULT_LANG
