@@ -3,7 +3,7 @@
 **Windows tepsi başlatıcısı: programlarınız, klasörleriniz, belgeleriniz ve
 adresleriniz tek tıkla erişime açık olsun.**
 
-[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
+[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Français](README.fr.md)
 
 ---
 
@@ -30,7 +30,7 @@ trafiği yok. Listeniz tek bir JSON dosyasında, kendi makinenizde durur.
 - **Tepsi menüsü** — tüm öğeler listelenir, ayrıca hepsini tek tıkla açan
   *Tümünü aç*
 - **Dört öğe türü** — program, klasör, belge, web adresi
-- **Beş dil** — İngilizce, Türkçe, 中文, Deutsch, Italiano; istediğiniz an
+- **Altı dil** — İngilizce, Türkçe, 中文, Deutsch, Italiano, Français; istediğiniz an
   değiştirilir
 - **Kalıcı ayarlar** — `%APPDATA%\ReadytoWork\config.json` içinde, atomik
   yazılır; böylece bir çökme veya dolu disk ayarları bozamaz

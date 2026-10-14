@@ -3,7 +3,7 @@
 **Un launcher per la barra di sistema su Windows: programmi, cartelle, documenti
 e indirizzi a portata di un clic.**
 
-[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
+[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Français](README.fr.md)
 
 ---
 
@@ -32,7 +32,7 @@ file JSON, sulla tua macchina.
 - **Menu di sistema** — tutte le voci elencate, più *Apri tutto* per la mattina
   con un unico clic
 - **Quattro tipi di voce** — programma, cartella, documento, indirizzo web
-- **Cinque lingue** — English, Türkçe, 中文, Deutsch, Italiano; si cambia quando
+- **Sei lingue** — English, Türkçe, 中文, Deutsch, Italiano, Français; si cambia quando
   vuoi
 - **Impostazioni che restano** — salvate in
   `%APPDATA%\ReadytoWork\config.json`, scritte in modo atomico: un arresto

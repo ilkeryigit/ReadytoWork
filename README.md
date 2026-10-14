@@ -10,7 +10,7 @@
 [![Build: PyInstaller](https://img.shields.io/badge/build-PyInstaller-6.x-purple.svg)](https://pyinstaller.org/)
 [![Release: 1.0.1](https://img.shields.io/badge/release-1.0.1-brightgreen.svg)](https://github.com/ilkeryigit/ReadytoWork/releases)
 
-[Interface languages](lang/) · [English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
+[Interface languages](lang/) · [English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Français](README.fr.md)
 
 </div>
 
@@ -38,7 +38,7 @@ network traffic. Your list lives in one JSON file on your own machine.
 
 - **Tray menu** — every item listed, plus *Open all* for one-click mornings
 - **Four item types** — program, folder, document, web address
-- **Five languages** — English, Türkçe, 中文, Deutsch, Italiano; switchable at any time
+- **Six languages** — English, Türkçe, 中文, Deutsch, Italiano, Français ; switchable at any time
 - **Settings that stick** — stored in `%APPDATA%\ReadytoWork\config.json`, written atomically so a crash or a full disk can never corrupt them
 - **Reorder and rename** — move items up and down, edit inline
 - **Browser choice** — open web addresses in the system default, Chrome, Firefox or Edge

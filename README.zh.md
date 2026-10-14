@@ -2,7 +2,7 @@
 
 **Windows 托盘启动器：程序、文件夹、文档和网址，一键直达。**
 
-[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
+[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Français](README.fr.md)
 
 ---
 
@@ -26,7 +26,7 @@
 
 - **托盘菜单** — 列出全部条目，并提供 *全部打开*，一键开启新一天
 - **四种条目类型** — 程序、文件夹、文档、网址
-- **五种语言** — English、Türkçe、Deutsch、Italiano、中文，随时切换
+- **六种语言** — English、Türkçe、Deutsch、Italiano、中文、Français、随时切换
 - **设置持久保存** — 存放在 `%APPDATA%\ReadytoWork\config.json`，采用原子写入，
   崩溃或磁盘写满都不会损坏设置
 - **排序与重命名** — 上下移动条目，就地编辑

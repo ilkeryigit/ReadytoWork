@@ -3,7 +3,7 @@
 **Ein Windows-Tray-Launcher: Programme, Ordner, Dokumente und Webadressen
 mit einem Klick erreichbar.**
 
-[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
+[English](README.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Français](README.fr.md)
 
 ---
 
@@ -32,7 +32,7 @@ Ihrem eigenen Rechner.
 - **Tray-Menü** — alle Einträge aufgelistet, dazu *Alle öffnen* für den
   Ein-Klick-Morgen
 - **Vier Eintragstypen** — Programm, Ordner, Dokument, Webadresse
-- **Fünf Sprachen** — English, Türkçe, 中文, Deutsch, Italiano; jederzeit
+- **Sechs Sprachen** — English, Türkçe, 中文, Deutsch, Italiano, Français; jederzeit
   umschaltbar
 - **Einstellungen, die bleiben** — gespeichert unter
   `%APPDATA%\ReadytoWork\config.json`, atomar geschrieben: ein Absturz oder eine
